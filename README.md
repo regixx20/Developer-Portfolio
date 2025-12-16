@@ -1,56 +1,30 @@
-# Devfolio - Portfolio Template ⚡️
+# Portfolio de Régix Mededji
 
-## A Professional, Sleek Portfolio for Developers!
+Portfolio personnel construit avec React, Vite et React Router. Il présente mon profil, mes compétences clés, mes expériences professionnelles et une sélection de projets avec des pages détaillées.
 
----
+## Démarrage rapide
 
-## 🌐 LIVE DEMO
+```bash
+npm install
+npm run dev
+```
 
-**[View the Portfolio](https://free-portfolio-aayush.vercel.app/)**
+L'application est servie sur [http://localhost:5173](http://localhost:5173) par défaut.
 
----
+## Scripts disponibles
 
-## ⭐ Give This Repo a Star
+- `npm run dev` – lance le serveur de développement Vite avec rechargement à chaud.
+- `npm run build` – génère la version de production dans le dossier `dist`.
+- `npm run preview` – sert localement le build de production.
 
-If you find this project useful or interesting, please consider giving it a star on GitHub! Your support helps me keep this project updated and motivates me to work on more cool stuff.
+## Structure principale
 
----
+- `src/components` : sections du site (profil, compétences, expériences, projets, contact, navigation, pied de page).
+- `src/data/projects.js` : données des projets utilisées pour les cartes et les pages détaillées.
+- `src/pages/ProjectDetails.jsx` : vue détaillée d'un projet avec liens live et repository.
+- `src/App.jsx` : définition des routes et agencement des sections.
+- `src/App.css` : styles globaux du portfolio.
 
-## 📸 Portfolio Preview
+## Crédit
 
-![Portfolio Preview](./Images/live.png)
-
----
-
-## 🚀 Features
-
-- **Modern UI Design + Reveal Animations:** Eye-catching animations and a sleek, modern look.
-- **Single Page Layout:** Easy-to-navigate one-page design, offering simplicity and elegance.
-- **CSS Powered Styling:** Styled with the latest CSS techniques for vibrant design.
-- **Fully Responsive:** Optimized for devices of all sizes, from desktops to smartphones.
-- **HTML5 & CSS3 Compliance:** Adheres to web standards for a future-proof, robust portfolio.
-- **Blazing Fast Performance:** Optimized to ensure a smooth, seamless experience for all users.
-- **Detailed Documentation:** Step-by-step instructions for setup, customization, and further development.
-
-Check out the demo: **[Click here](https://free-portfolio-aayush.vercel.app/)**
-
----
-
-## Why Do You Need a Portfolio? ☝️
-
-- **Showcase Your Expertise:** Present your projects, skills, and achievements in a polished and professional way.
-- **Increase Your Online Presence:** Boost your digital visibility to potential clients and employers.
-- **Go Beyond a Resume:** Demonstrate your abilities and creativity through a live, interactive showcase.
-
----
-
-## 📫 Get in Touch
-
-For any inquiries or feedback, feel free to reach out:
-
-- **Email**: [iAayushBharti@gmail.com](mailto:iAayushBharti@gmail.com)
-- **LinkedIn**: [Aayush Bharti on LinkedIn](https://www.linkedin.com/in/iaayushbharti/)
-
----
-
-Thank you for checking out the Devfolio template!
+Contenu et identité : Régix Mededji. Construite avec React et stylée avec CSS moderne.
